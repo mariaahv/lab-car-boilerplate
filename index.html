@@ -102,7 +102,7 @@
 
 <section>
   <div class="tercera-seccion">
-    <div id="form-conduce" >
+    <div id="form-conduce" class="pull-right" >
         <h6 class="text" >Conduce cuando quieras </h6>
         <h6 class="textdrive "> Labcar es una opcion flexible para alcanzar tus metas </h6>
         <button class="btn-conduce"class="boton" type="button" class="btn btn-default btn-lg">Conviertete en conductor</button>
@@ -205,39 +205,33 @@
     <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
       	<div class="modal-dialog">
   			<div class="modal-content">
-  				<div class="modal-header" align="center">
-					<img id="img_logo" src="assets/images/logoForma.png">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-					</button>
-				</div>
 
-                <!-- Begin # DIV Form -->
+      				<div class="modal-header" align="center">
+    					<img id="img_logo" src="assets/images/logoForma.png">
+    					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    					</button>
+    				</div>
+
+
                 <div id="div-forms">
 
-                    <!-- Begin # Login Form -->
-                    <form id="login-form">
-		                <div class="modal-body">
-
-				    		<input id="login_username" class="form-control" type="text" placeholder="Username " required>
-				    		<input id="login_password" class="form-control" type="password" placeholder="Password" required>
-
-        		    	</div>
-				        <div class="modal-footer">
-                            <div>
+                      <form id="login-form">
+        		                <div class="modal-body">
+              				    		<input id="login_username" class="form-control" type="text" placeholder="Username " required>
+              				    		<input id="login_password" class="form-control" type="password" placeholder="Password" required>
+                            </div>
+          				        <div class="modal-footer">
+                              <div>
                                 <button type="submit" class="btn btn-primary btn-lg btn-block" id="btn_login">Login</button>
-                            </div>
-				    	    <div>
-                                <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
-                                <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
-                            </div>
-				        </div>
+                              </div>
+          				    	       <div>
+                                  <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                  <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                              </div>
+          				        </div>
                     </form>
-
-
                 </div>
-
-
 			</div>
 		</div>
 	</div>
@@ -245,54 +239,49 @@
 
   <div class="modal fade" id="registrate-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
       <div class="modal-dialog">
-      <div class="modal-content">
-  <div class="container">
-    <h1 class="well" class="btn btn-default" id="btn-registrate">ya tienes una cuenta?</h1>
-	<div class="col-lg-12 well">
-	<div class="row">
-				<form>
-					<div class="col-sm-12">
-						<div class="row">
-							<div class="col-sm-6 form-group">
-								<label>First Name</label>
-								<input type="text" placeholder="Enter First Name Here.." class="form-control">
-							</div>
-							<div class="col-sm-6 form-group">
-								<label>Last Name</label>
-								<input type="text" placeholder="Enter Last Name Here.." class="form-control">
-							</div>
-						</div>
+        <div class="modal-content">
+            <div class="container">
+                <h1 class="well" class="btn btn-default" id="btn-registrate">Ya tienes una cuenta?</h1>
+	                  <div class="col-lg-12 well">
+	                    <div class="row">
+                				<form>
+                					<div class="col-sm-12">
+                						<div class="row">
+                							<div class="col-sm-6 form-group">
 
-						<div class="row">
-							<div class="col-sm-6 form-group">
-								<label>Title</label>
-								<input type="text" placeholder="Enter Designation Here.." class="form-control">
-							</div>
-							<div class="col-sm-6 form-group">
-								<label>Company</label>
-								<input type="text" placeholder="Enter Company Name Here.." class="form-control">
-							</div>
-						</div>
-					<div class="form-group">
-						<label>Phone Number</label>
-						<input type="text" placeholder="Enter Phone Number Here.." class="form-control">
-					</div>
-					<div class="form-group">
-						<label>Email Address</label>
-						<input type="text" placeholder="Enter Email Address Here.." class="form-control">
-					</div>
-					<div class="form-group">
-						<label>Website</label>
-						<input type="text" placeholder="Enter Website Name Here.." class="form-control">
-					</div>
-					<button type="button" class="btn btn-lg btn-info">Submit</button>
-					</div>
-				</form>
-				</div>
-	</div>
-	</div>
-  </div>
-  </div>
+                								<input type="text" placeholder="Nombre" class="form-control">
+                							</div>
+                							<div class="col-sm-6 form-group">
+
+                								<input type="text" placeholder="Apellido" class="form-control">
+                							</div>
+                						</div>
+
+                							<div class="form-group">
+                								<input type="text" placeholder="Correo Electronico ejemplo@correo" class="form-control">
+                							</div>
+                							<div class="form-group">
+              								<input type="text" placeholder="Telefono" class="form-control">
+              							</div>
+
+                  					<div class="form-group">
+                  						<input type="text" placeholder="Contraseña" class="form-control">
+                  					</div>
+                  					<div class="form-group">
+                  						<input type="text" placeholder="Ciudad" class="form-control">
+                  					</div>
+                  					<div class="form-group">
+
+                  						<input type="text" placeholder="Opcional! Codigo de invitacion" class="form-control">
+                  					</div>
+                  					<button type="button" class="btn btn-lg btn-info col-xs-12 col-md-12 ">Enviar</button>
+                  				</div>
+                  			</form>
+                  		</div>
+	              </div>
+	          </div>
+        </div>
+    </div>
   </div>
 
 
