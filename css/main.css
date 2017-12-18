@@ -1,1 +1,287 @@
 /* Los estilos de tu proyecto */
+
+  body{
+    background: #E9EAED;
+    font-family: Raleway;
+  }
+
+  .container-fluid{
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar-toggle{
+    float: left;
+    }
+  .navbar-brand{
+    margin-top: 40px;
+  }
+.taxi{
+ width: 100%;
+  position: absolute;
+  outline: 10px solid green;
+
+}
+
+
+#form-registed{
+  margin-top: 15%;
+  float: right;
+  background: #F7B617;
+
+}
+
+#form-registed_desktop{
+  margin-top: 15%;
+  float: right;
+  background: #F7B617;
+
+}
+
+#registed{
+/*outline: 1px solid green;*/
+margin-bottom: 30px;
+}
+
+
+.text{
+  margin: 10px 0px;
+  margin-top: 40px;
+  color: white;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+#txt{
+display: inline;
+
+}
+
+#logowhite{
+/*outline: 1px solid red;*/
+position: absolute;
+padding-top: 5px;
+box-sizing: border-box;
+transform: translate(10%,30%);
+}
+
+.boton{
+  display:block;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background: #FFFFFF;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.boton:hover{
+  background: gray;
+  border-color: black;
+
+}
+
+
+.text_media{
+  font-size: 15px;
+  color: white;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+
+#second-movile{
+  background: #F7B617;
+  margin-top: 30px;
+
+}
+.second-desktop{
+
+  background: #F7B617;
+float: right;
+padding: 0px;
+
+}
+
+.text2{
+  color: white;
+  margin: 20px 40px;
+}
+.tercera-seccion{
+  margin-top:-48px;
+  width: 100%;
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+    height: 100vh;
+outline: 2px solid red;
+}
+#form-conduce{
+ padding: 40px;
+  margin: 50px 50px;
+
+
+}
+.textdrive{
+  font-size: 25px;
+  color: white;
+  margin: 20px;
+}
+
+.btn-conduce{
+  background:#F7B617;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+#btn-tarifa{
+  margin-top: 20px;
+}
+.cuarta-seccion{
+background: #F7B617;
+
+}
+
+.iconos{
+  outline: 3px solid green;
+display: block;
+width: 20%;
+
+}
+.input-group{
+  margin-left: 8%;
+}
+.image-map{
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+footer{
+  background:black;
+
+}
+.social{
+  color: white;
+
+
+
+}
+ul li{
+  list-style: none;
+}
+
+hr{
+  margin: 70px;
+}
+
+#img_logo {
+
+    max-height: 100px;
+    max-width: 100px;
+}
+.modal-content{
+  background: #08AC9D;
+}
+#btn_login{
+  background: #F7B617;
+}
+#btn-registrate{
+  background: black;
+  color: white;
+}
+
+[class*="col-"]{/* clase qu afecta a todos los col-*/
+
+}
+@media (max-width: 768px) {
+.text{
+  font-size: 40px;
+}
+#form-registed{
+
+  visibility: visible;
+}
+#form-registed_desktop{
+ display: none;
+}
+#image-taxi{
+max-height: 500px;
+}
+.iphone{
+width: 50%;
+transform: translate(50%,5%);
+
+
+}
+.second-desktop{
+  width: 50%;
+  display: none;
+}
+
+.social{
+  width: 50%;
+}
+ul li a{
+  font-size: 20px;
+}
+#logo{
+  margin-top: 10px;
+  width: 40%;
+}
+
+}
+
+@media (min-width: 769px) and (max-width:2000px) {
+
+  .text{
+    font-size: 40px;
+  }
+  #form-registed{
+    display: none;
+  }
+ #form-registed_desktop{
+   visibility: visible;
+ }
+ #image-taxi{
+ max-height: 800px;
+ }
+ .iphone{
+ width:50%;
+ padding: 30px;
+
+ }
+
+ .second-desktop{
+   font-size: 20px;
+   margin-top: -40%;
+   position: relative;
+   width: 50%;
+   box-sizing: border-box;
+   visibility: visible;
+ }
+ #form-conduce{
+   float: right;
+   width: 40%;
+
+ }
+ .social{
+   width: 80%;
+ }
+ ul li a{
+   font-size: 25px;
+ }
+ #logo{
+   margin-top: 10px;
+   width: 20%;
+ }
+
+
+}
