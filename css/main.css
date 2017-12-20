@@ -5,9 +5,6 @@
     font-family: Raleway;
   }
 
-  .container-fluid{
-  }
-
   img{
     width: 100%;
     height: auto;
@@ -165,14 +162,11 @@ width: 20%;
 }
 
 footer{
-  background:black;
-
+  background:#2B2B2B;
+ padding:50px 0px;
 }
 .social{
   color: white;
-
-
-
 }
 ul li{
   list-style: none;
@@ -183,10 +177,9 @@ hr{
 }
 
 #img_logo {
-
     max-height: 100px;
-    max-width: 100px;
-}
+    max-width: 100px;}
+
 .modal-content{
   background: #08AC9D;
 }
@@ -198,6 +191,11 @@ hr{
   color: white;
 }
 
+
+#iconos li i{
+  color:white;
+  font-size: 20px;
+}
 [class*="col-"]{/* clase qu afecta a todos los col-*/
 
 }
@@ -206,7 +204,6 @@ hr{
   font-size: 40px;
 }
 #form-registed{
-
   visibility: visible;
 }
 #form-registed_desktop{
@@ -218,8 +215,6 @@ max-height: 500px;
 .iphone{
 width: 50%;
 transform: translate(50%,5%);
-
-
 }
 .second-desktop{
   width: 50%;
@@ -281,6 +276,9 @@ ul li a{
  #logo{
    margin-top: 10px;
    width: 20%;
+ }
+ #iconos{
+   transform: translate(0%,1000%);
  }
 
 
